@@ -51,5 +51,68 @@ Log:
 
 # Advanced Security (Enterprise / Financial-Grade)
 
+### 🔐 Token Security
+
+* Use **short-lived JWTs**
+* Store secrets in:
+  * Azure Key Vault
+  * AWS Secrets Manager
+* Rotate secrets automatically
+* 
+### 🔏 Mutual TLS (mTLS)
+
+* Both client and server authenticate each other
+* Ideal for:
+  * B2B integrations
+  * Internal microservices
+
+### 🧠 Behavioral Protection
+
+* Detect:
+  * Bot attacks
+  * Scraping
+  * Credential stuffing
+* Use:
+  * API Gateways
+  * WAF (Web Application Firewall)
+
+### 🛡 OWASP API Top 10 Protection
+
+Protect against:
+* Broken Object Level Authorization (BOLA)
+* Mass Assignment
+* Excessive Data Exposure
+* Injection attacks
+* SSRF
+### 📜 Schema Enforcement
+
+* Enforce OpenAPI schema validation
+* Reject non-conforming requests automatically
+
+---
+
+## 4️⃣ API Gateway & Infrastructure Security
+
+### 🚪 API Gateway (Highly Recommended)
+
+Examples:
+
+* Azure API Management
+* AWS API Gateway
+* Kong / Apigee
+
+Capabilities:
+
+* Auth enforcement
+* Rate limiting
+* IP filtering
+* Request validation
+* API versioning
+
+### 🧱 Network Security
+
+* IP allow-listing (where applicable)
+* Private endpoints for internal APIs
+* Zero Trust networking
 
 
