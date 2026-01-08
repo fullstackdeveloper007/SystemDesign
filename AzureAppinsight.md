@@ -324,6 +324,15 @@ Used in **Logs** to analyze data:
 requests
 | where success == false
 | order by timestamp desc
+
+
+exceptions
+| summarize count()
+
+
+requests
+| summarize avg(duration) by name
+
 ```
 
 ---
