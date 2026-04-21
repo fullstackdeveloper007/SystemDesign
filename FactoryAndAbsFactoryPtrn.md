@@ -160,6 +160,12 @@ But still, your statement needs a correction.
 ---
 # Factory Vs IOC (Inversion of Control) Vs Factory Pattern
 
+**Inversion of Control (IoC)** is a design principle in which the control of object creation and dependency management is transferred from the application code to an external system, such as a framework or container.
+
+**Factory Pattern** is a creational design pattern that centralizes object creation by providing a method or class to create objects without exposing the instantiation logic to the client
+
+**Dependency Injection (DI)** is a technique where dependencies are provided to a class from an external source instead of the class creating them itself.
+
 > ❌ “Factory pattern is a way to certify/achieve IoC”
 > ✔ **Factory pattern can help achieve IoC partially, but it is not the main way**
 
