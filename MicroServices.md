@@ -37,6 +37,8 @@ https://www.youtube.com/watch?v=wmawYODmQU0
 ## 🔹 2. API Gateway Responsibilities
 
 The API Gateway (e.g., NGINX, Azure API Management) serves as centrlized entry point for managing client intaeraytions with microservices. It simplifies communication by routing incoming request to appropriate microservices and handle various operational responsibility. 
+<img width="761" height="412" alt="image" src="https://github.com/user-attachments/assets/a86dd398-4787-4bcd-b7e2-86650a206120" />
+
 
 ### a) IP Filtering
 * Allow list / Block list of IPs
