@@ -13,23 +13,20 @@ https://www.youtube.com/watch?v=wmawYODmQU0
 - Fault Isolation
 - Scalability
 
-# Main component of Microsrvices
+# Core Characteristics
 
 - Service Independence
 - Domain Driven Design
 - API Commpunication
 - Technology Diversity
 
-# Service Registery and Discovery: Cenralized system to discover each other 
-- API Gateway
-- Load Balancer
-- Data management
-- Monitoring and logging
+# Main component of Microsrvices 
+- Service Registery and Discovery: Cenralized system to discover each other. AKS(Azure Kubernates Service),Eureka,Consul (for VM-based deployments)
+- API Gateway : It acts as a single entry point for client,Routing request to appropriate services and handle Authentication, Rate limiting,Logging
+- Load Balancer : Distribute incoming traffic across the instances of a service to ensure high availability
+- Data management : EAch service manage its own database
+- Monitoring and logging : Grafana and RealkStack,Azure Monitor,
 - CI/CD pipeline
-
-Here’s a clean, interview-ready flow with brief bullets:
-
----
 
 # 🔹 End-to-End Request Flow
 
@@ -39,7 +36,7 @@ Here’s a clean, interview-ready flow with brief bullets:
 
 ## 🔹 2. API Gateway Responsibilities
 
-The API Gateway (e.g., NGINX, Azure API Management) handles:
+The API Gateway (e.g., NGINX, Azure API Management) serves as centrlized entry point for managing client intaeraytions with microservices. It simplifies communication by routing incoming request to appropriate microservices and handle various operational responsibility. 
 
 ### a) IP Filtering
 * Allow list / Block list of IPs
